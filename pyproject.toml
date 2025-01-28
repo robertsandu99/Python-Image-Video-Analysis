@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "analiza-imaginilor"
+version = "0.1.0"
+description = "Analiza imaginilor pentru un sistem mecatronic de înregistrare video"
+authors = ["Robert Sandu"]
+readme = "README.md"
+packages = [{include = "analiza_imaginilor"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.7.0.72"
+cvzone = "1.5.6"
+ultralytics = "^8.0.106"
+filterpy = "1.4.5"
+scikit-image = "^0.22.0"
+numpy = "^1.26.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

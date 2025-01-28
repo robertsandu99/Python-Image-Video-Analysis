@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2023-05-22T18:50:15.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="jdYSZWSEYDBLseFmgYHc" version="21.3.2" type="device">
+  <diagram name="Pagina-1" id="QkRNNRiRy0--acTwLFoo">
+    <mxGraphModel dx="1050" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#FF0000;" edge="1" parent="1" source="qoJeCfxsoNiryEq2GFhv-1" target="qoJeCfxsoNiryEq2GFhv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-1" value="Imginea de intrare&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="80" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="qoJeCfxsoNiryEq2GFhv-2" target="qoJeCfxsoNiryEq2GFhv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-2" value="Procesarea imaginii" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="qoJeCfxsoNiryEq2GFhv-3" target="qoJeCfxsoNiryEq2GFhv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-3" value="Extragerea&lt;br&gt;caracteristicilor&lt;br&gt;imaignii" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="qoJeCfxsoNiryEq2GFhv-4" target="qoJeCfxsoNiryEq2GFhv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-4" value="Detectarea entităților&lt;br&gt;din imagine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="qoJeCfxsoNiryEq2GFhv-5" target="qoJeCfxsoNiryEq2GFhv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-5" value="Algoritm învatare automată / Antrenare model&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="290" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="qoJeCfxsoNiryEq2GFhv-6" target="qoJeCfxsoNiryEq2GFhv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-6" value="Aplicare mască" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="qoJeCfxsoNiryEq2GFhv-8" target="qoJeCfxsoNiryEq2GFhv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-8" value="Clasificarea entităților&lt;br&gt;și afișarea lor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-9" value="Rezultatul final" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-20" value="&lt;font color=&quot;#000000&quot;&gt;START&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="52" y="350" width="56" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qoJeCfxsoNiryEq2GFhv-22" value="&lt;font color=&quot;#000000&quot;&gt;FINAL&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="524" y="677" width="52" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
