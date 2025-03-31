@@ -1,14 +1,20 @@
-# PAȘII PENTRU A INSTALA ȘI RULA APLICAȚIA
+# PYTHON IMAGE AND VIDEO ANALYSIS
+The goal of this application is to
+- create an application that can detect the objects in a video/image using a well known trained model (YOLO)
+- a user-friendly interface where the users can select the model, sample, mask they want to analyze.
 
-1. Instalarea Python: https://www.python.org/downloads/
-2. Dezarhivarea arhivei cu aplicația.
-3. Deshiderea unui terminal/linii de comandă în directorul unde se află fișierul poetry.lock și pyproject.toml
-4. Rularea comenzii pe rând și în ordinea următoare a comenzilor: 
+Note: For the detection on a specific segment, the user needs to add his own mask.
+
+
+# STEPS TO RUN THE APP
+
+1. Open terminal and go to poetry.lock and pyproject.toml path.
+2. Run the following commands: 
 - "pip install poetry"
 - "poetry install"
 - "pooetry shell"
 - "cd analiza_imaginilor"
-- "python counter.py" SAU "py counter.py" SAU poetry "run python counter.py" . Cel puțin una din variante ar trebui sa ruleze aplicația. În caz contrar verificați iar parcurgerea pașilor, în special directorul în care va aflați (pasul 3)
+3. To run the application: "python counter.py" OR "py counter.py" OR poetry "run python counter.py". One of it should work. If not please check the previous step again.
 
 
 
